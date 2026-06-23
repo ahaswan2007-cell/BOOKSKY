@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky app </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="navbar">
+    <h1>booksky</h1>
+  </div>
+  <div class="container" id="div" >
+    <div class="book-container"> 
+        <h2>Rich dad poor dad</h2>
+        <h5>Ramdass</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, voluptate. Excepturi at ipsam, impedit pariatur quis odit. Illo et quia nulla deleniti molestias totam, inventore maxime, natus eaque accusantium hic!</p>
+       <button onclick="deletebook(event)">Delete</button>
+    </div>
+  </div>
+
+  <div class="popup"> </div>
+<div class="popup-box">
+  <h2>ADD BOOK</h2>
+  <form >
+    <input type="text" placeholder="BOOK TITLE" id="book-title-input">
+    <input type="text" placeholder="AUTHOR" id="AUTHOR">
+    <textarea placeholder="DESCRIPTION" id="AUTHOR- DESCRIPTION"></textarea>
+    <BUtton id="add-btn">ADD</BUtton>
+    <button id="cancel-popup">CANCEL</button>
+  </form>
+
+</div>
+
+
+
+
+
+
+  <button class="add-btn" id="add button">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
